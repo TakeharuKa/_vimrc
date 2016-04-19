@@ -36,8 +36,6 @@ nmap ,m :!./main.exe<cr>
 nmap <F4> :!gdb %<<cr>
 nmap <F6> :!xelatex %< && open %<.pdf <cr>
 nmap ,log :tabnew %<.log<cr>
-nmap ,hl :help latex-suite-quickstart.txt<cr>
-nmap ,hl2 :help latex-suite.txt<cr>
 set cmdheight=3
 set ignorecase
 set hlsearch
